@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav ber section */
+.web-name{
+    margin-left: -600px;
+}
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+ul > li{
+    margin-right: 30px;
+}
+
+
+/* banner-container-box */
+
+
+.banner-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.banner-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 10px;
+}
+.banner-img{
+  padding: 30px;
+}
